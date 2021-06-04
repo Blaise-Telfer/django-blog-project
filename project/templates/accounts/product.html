@@ -1,0 +1,19 @@
+{%  extends 'accounts/main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="card card-body">
+
+			<tr>
+			  <td>{{ product.name }}</td>
+			  <td>{{ product.price }}</td>
+			  <td>{{ total_orders }}</td>
+			</tr>
+
+		</div>
+	</div>
+</div>
+
+{% endblock %}
