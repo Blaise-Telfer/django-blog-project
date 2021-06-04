@@ -2,8 +2,8 @@ from django.apps import AppConfig
 
 
 class AccountsConfig(AppConfig):
-	name = 'accounts'
+	name = 'project'
 	
 	def ready(self):
-	  import accounts.signals
+	  import project.signals
 
