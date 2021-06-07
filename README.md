@@ -1,2 +1,11 @@
 # django-social-media-project
-A work-in-progress Django site that will allow users to create an account, create a profile, blog, message each other and follow other users
+Installation for Windows:
+
+Create virtual environment) python -m venv env
+Activate virtual environment) .\env\Scripts\activate
+
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver 0.0.0.0:8000
